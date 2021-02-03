@@ -1,5 +1,6 @@
 import {Cliente} from "../Cliente.js";
 
+//Esse arquivo é importante
 export class Conta{
     constructor(agencia, numero, cliente){
     //Não pode instanciara classe Conta porque ela é uma classe abstrata
