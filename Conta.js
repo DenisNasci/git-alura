@@ -23,7 +23,7 @@ export class Conta{
             this._cliente = novoCliente;
             console.log("Cliente " + novoCliente.nome + " incluído com sucesso!");
         }else{
-            console.log("Insira um valor válido!");
+            console.log("Insira um valor válido para continuar!");
         }
     }
     //Método abstrato
