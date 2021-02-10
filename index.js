@@ -1,3 +1,4 @@
+//Adicionando um comentário de detalhamento de código
 const customExpress = require('./config/customExpress');
 const conexao = require('./infraestrutura/conexao');
 const Tabelas = require('./infraestrutura/tabelas');
