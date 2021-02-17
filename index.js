@@ -4,6 +4,7 @@ const conexao = require('./infraestrutura/conexao');
 //Sobre a modificação
 const Tabelas = require('./infraestrutura/tabelas');
 
+//Criando conexão com o servidor e gerindo conexões 
 conexao.connect(erro => {
   if(erro){
     console.log(erro);
